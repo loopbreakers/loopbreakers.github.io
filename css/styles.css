@@ -1,11 +1,22 @@
-body{text-align: center; background-color:lightgray}
+body {
+    font-size: 16pt;
+    line-height: 1.5;
+    font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 { font-size: 2.747em }
+h2 { font-size: 0.874em }
+h3 { font-size:1.229em }
+
+a:hover, a:active { background-color: cornflowerblue; text-decoration: none; color: white;}
+
 header, footer {display: block; text-align: center;}
-article{display: block; margin: 0 auto; width:600px; text-align:left}
-.clearfix::after {content: ""; clear: both; display: table;}
+article{display: block; max-width: 28em; margin: auto; padding: 0 1 em;}
+section > h1 { font-size: 1.229em }
 ul li {line-height: 2}
 dt {font-weight: bold; margin-bottom: 1em;}
 
-section.ruled { display: block; padding-top: 1em; border-top: 2px inset gray }
+section.ruled { display: block; padding-top: 1em; border-top: 2px inset gray; padding-bottom: 1em; }
 
 footer { display: block; padding-top: 1em; border-top: 2px inset gray}
 footer > ul { list-style-type: none; margin: 0; padding: 0; }
