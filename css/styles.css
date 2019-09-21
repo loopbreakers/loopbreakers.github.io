@@ -5,8 +5,10 @@ body {
 }
 
 h1 { font-size: 2.747em }
-h2 { font-size: 0.874em }
-h3 { font-size:1.229em }
+h2 { font-size: 1.229em }
+h3 { font-size: 0.874em }
+
+span.edit { background-color: tan }
 
 a:hover, a:active { background-color: cornflowerblue; text-decoration: none; color: white;}
 
